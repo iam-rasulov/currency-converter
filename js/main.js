@@ -13,14 +13,15 @@ elForm.addEventListener("submit", function(event){
 
   var elInputVal = elInput.value;
   var elSelectVal = elSelect.value;
-  if(elInputVal < 0){
+  if(elInputVal <= 0){
     (elResult.textContent = "nasiyag nmadr nmadr");
-  } else if (elInputVal >= 0){
+  } else if (elInputVal >= 1){
     elResult.textContent = (elInputVal * elSelectVal);
   }
   else{
     console.log(elInput);
   }
+  
 
 });
 
