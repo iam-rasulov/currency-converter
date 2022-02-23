@@ -3,14 +3,13 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('../fonts/Gilroy-Regular.woff2') format('woff2'),
          url('../fonts/Gilroy-Regular.woff') format('woff'); 
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
     src: local(''),
-         url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-         url('../fonts/Gilroy-Bold.woff') format('woff'); 
-  }
+         url('../fonts/Gilroy-Bold.woff2') format('woff2'); 
+}
