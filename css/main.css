@@ -30,7 +30,12 @@ body{
     border: 3px solid black;
     border-radius: 55px;
     background-color: transparent;
+    outline-style: none;
 }
+.form__input::placeholder{
+    color: black;
+}
+
 .form__select {
     width: 80px;
     padding-right: 10px;
